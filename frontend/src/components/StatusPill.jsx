@@ -1,0 +1,1 @@
+export default function StatusPill({level=0}){const map={0:['NORMAL','safe'],1:['WATCH','watch'],2:['ADVISORY','advisory'],3:['WARNING','warning'],4:['EVACUATE','evacuate']}; const [t,c]=map[level]||map[0]; return <span className={`pill ${c}`}>{t}</span>}

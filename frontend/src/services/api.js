@@ -1,0 +1,1 @@
+import axios from 'axios'; export const API=axios.create({baseURL:(import.meta.env.VITE_API_BASE_URL||'http://127.0.0.1:5000')+'/api/v1'}); API.interceptors.request.use(c=>{const t=localStorage.getItem('floodguard_token'); if(t)c.headers.Authorization=`Bearer ${t}`; return c}); export default API;
