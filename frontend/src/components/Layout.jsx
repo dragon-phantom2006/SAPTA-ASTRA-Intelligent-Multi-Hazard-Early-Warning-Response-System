@@ -118,7 +118,7 @@ export default function Layout({ children, admin = false }) {
                                     <Radio size={18} />
 
                                     <span>
-                                        Varun Astra
+                                        VarunAstra
                                     </span>
                                 </div>
 
