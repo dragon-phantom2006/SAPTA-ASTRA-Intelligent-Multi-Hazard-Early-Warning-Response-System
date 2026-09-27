@@ -4,12 +4,12 @@ import { useAuth } from '../contexts/AuthContext';
 import { useState } from 'react';
 
 const hazards = [
-    ['/forest-fire', 'Parjanya Astra', Flame],
-    ['/temperature', 'Surya Astra', Thermometer],
-    ['/air-pollution', 'Vayu Astra', Wind],
-    ['/landslide', 'Bhumi Astra', Mountain],
-    ['/water-quality', 'Jal Astra', Droplets],
-    ['/industrial-emission', 'Dhum Astra', Factory]
+    ['/forest-fire', 'ParjanyaAstra', Flame],
+    ['/temperature', 'SuryaAstra', Thermometer],
+    ['/air-pollution', 'VayuAstra', Wind],
+    ['/landslide', 'BhumiAstra', Mountain],
+    ['/water-quality', 'JalAstra', Droplets],
+    ['/industrial-emission', 'DhumAstra', Factory]
 ];
 
 export default function Layout({ children, admin = false }) {
@@ -81,7 +81,7 @@ export default function Layout({ children, admin = false }) {
                     </span>
 
                     <div>
-                        <b>SAPTA ASTRA</b>
+                        <b>SAPTASTRA</b>
                         <small>7-HAZARD RESPONSE GRID</small>
                     </div>
 
