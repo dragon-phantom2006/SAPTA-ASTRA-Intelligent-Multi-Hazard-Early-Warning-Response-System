@@ -77,7 +77,7 @@ export default function Layout({ children, admin = false }) {
                 {/* Brand */}
                 <div className="brand">
                     <span className="brand-mark">
-                        <img src="/SaptaAstra.png" alt="Sapta Astra"className="brand-logo"/>
+                        <img src="/SaptaAstra.jpeg" alt="Sapta Astra"className="brand-logo"/>
                     </span>
 
                     <div>
